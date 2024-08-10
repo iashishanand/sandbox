@@ -52,5 +52,5 @@ let output = `Wallets : \n${JSON.stringify(wallets)}\n\n`;
 output += `Combined Taproot address : \n${p2pktr.address}\n\n`;
 fs.writeFileSync("wallet.txt", output);
 
-console.log("Wallets : ", wallets);
+// console.log("Wallets : ", wallets);
 console.log("Taproot address : ", p2pktr.address);

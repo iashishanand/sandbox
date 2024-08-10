@@ -1,0 +1,46 @@
+{
+    "wallets": [
+        {
+            "name": "Alice",
+            "address": "tb1p6ju7ggvuh98atfq9k9ykp48xasxfc5ftwu5elpg5yeyaedejs7dsth8x6v",
+            "sec_key": "94da10c04385bac56dcf31d57325efb53e3725412ec2578eb83ae0e602b5cc73",
+            "pub_key": "d4b9e4219cb94fd5a405b14960d4e6ec0c9c512b77299f85142649dcb732879b",
+            "sec_nonce": "91b0ed858b9df382dfe26c3647b9d52725f84abbae0dd9aacce833e1123fe1109a86cfc5b9a707f7e873f651efa2d1a0d8eb0c6cc63f095d1775108638d18577",
+            "pub_nonce": "94a8d3ad0b24e243bd33153517d6e646394d7e0254bd220ece8da52b160d73b08321aff502a4d54d811c955f51b0af3cc47270809527de5b047efe9c8d7e592e"
+        },
+        {
+            "name": "Bob",
+            "address": "tb1pxv9zqjexayp3s3cwr4ufnuldvrwj4xj67hgdtmf897uua88vfseqsx27nz",
+            "sec_key": "e871a783c5c4a9f34a3b775776eb2b9299b096549b2c4f134298a06884d1762c",
+            "pub_key": "330a204b26e90318470e1d7899f3ed60dd2a9a5af5d0d5ed272fb9ce9cec4c32",
+            "sec_nonce": "a8e0867f0c83d3d574c647413d87438d43a9ae02833a8e9acd131b284dce477068dd3364af5d9389c3513b1043b92ff94624ba96433e498cbed0605647f70067",
+            "pub_nonce": "f4af3b2e0f8285ff4af5a7b010455ebd0fad282860b276d75d3dbed2e924b7614a68776610fa0f546cf5ff04f858442cfbb3cf466b557063304df1ee44e172c9"
+        }
+    ],
+    "utxos": [
+        {
+            "txid": "a9b7652983dc94d68adc91d8c6322a9ae2173acfa4f071026589920fcce41a8b",
+            "vout": 1,
+            "value": 50000
+        },
+        {
+            "txid": "eeb464dfeb785d83afbad8cd4b34b95a70f75e4ade4f4e03ce5e36fb603f65dc",
+            "vout": 1,
+            "value": 50000
+        }
+    ],
+    "oracle": {
+        "pub_key": "26df7989486448622ca09fa937e7901d2cebd930635f760f16a44be7b0627736",
+        "pub_nonce": "029460c8f315d4cc9dd8a70a9baaf8316a34c7267c742ee520d4ffdcede3482735",
+        "outcomes": [
+            {
+                "message": "rain",
+                "adaptor_point": "9cc79823499e3747accb9230927df1f2d9db1548854c651de47310ea93948115"
+            },
+            {
+                "message": "no rain",
+                "adaptor_point": "8a144eccc045ec39ea073f457b66aba138fbcdf8fd30e911449a82acd150e68b"
+            }
+        ]
+    }
+}
