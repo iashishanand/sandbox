@@ -126,6 +126,14 @@ for (const outcome of oracle.outcomes) {
     transactions[outcome.message] = await createAndSignTransaction(outcome);
 }
 
+// Print transaction hex for all outcomes
+console.log("\nTransaction hex for all outcomes:");
+for (const [outcome, { transaction }] of Object.entries(transactions)) {
+    console.log(`Outcome "${outcome}":`);
+    console.log(transaction.toHex());
+    console.log(); // Empty line for readability
+}
+
 // Prompt user for outcome and adaptor secret
 const userInput = await prompts([
     {
